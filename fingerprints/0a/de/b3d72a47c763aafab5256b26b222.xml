@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-04-10 20:34:38.840 UTC</timestamp>
+  <md5sum>0adeb3d72a47c763aafab5256b26b222</md5sum>
+  <fileName>Credential id=4fc0840a-7e2a-41d0-a5c0-c687d746f49e name=gitlab_key (connection to gitlab container)</fileName>
+  <usages>
+    <entry>
+      <string>maven-project</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
