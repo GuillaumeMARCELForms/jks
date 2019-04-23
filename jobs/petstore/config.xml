@@ -50,7 +50,7 @@
       <caseSensitive>true</caseSensitive>
     </hudson.tasks.ArtifactArchiver>
     <hudson.tasks.BuildTrigger>
-      <childProjects>petstore-checkstyle</childProjects>
+      <childProjects>,petstore-sonar, petstore-checkstyle</childProjects>
       <threshold>
         <name>SUCCESS</name>
         <ordinal>0</ordinal>
