@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-04-23 12:02:18.635 UTC</timestamp>
+  <original>
+    <name>petstore</name>
+    <number>10</number>
+  </original>
+  <md5sum>0fcc4a7cf08aa898ee5e5ef3cf60446c</md5sum>
+  <fileName>applicationPetstore.war</fileName>
+  <usages>
+    <entry>
+      <string>petstore</string>
+      <ranges>10</ranges>
+    </entry>
+    <entry>
+      <string>petstore-nexus</string>
+      <ranges>8-9</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
