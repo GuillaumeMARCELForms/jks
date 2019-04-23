@@ -12,8 +12,7 @@
     <configVersion>2</configVersion>
     <userRemoteConfigs>
       <hudson.plugins.git.UserRemoteConfig>
-        <url>ssh://git@gitlab-ce/root/maven-project.git</url>
-        <credentialsId>4fc0840a-7e2a-41d0-a5c0-c687d746f49e</credentialsId>
+        <url>https://plb-formation@bitbucket.org/plb-formation/maven-project.git</url>
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
     <branches>
