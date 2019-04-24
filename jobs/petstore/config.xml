@@ -32,7 +32,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Maven>
-      <targets>clean package -Dmaven.test.skip=true -Dv=${BUILD-NUMBER}</targets>
+      <targets>clean package -Dmaven.test.skip=true </targets>
       <mavenName>maven 3.6</mavenName>
       <usePrivateRepository>false</usePrivateRepository>
       <settings class="jenkins.mvn.DefaultSettingsProvider"/>

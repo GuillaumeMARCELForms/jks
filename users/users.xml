@@ -3,6 +3,10 @@
   <version>1</version>
   <idToDirectoryNameMap class="concurrent-hash-map">
     <entry>
+      <string>dockerlite</string>
+      <string>dockerlite_1815363005796870288</string>
+    </entry>
+    <entry>
       <string>admin</string>
       <string>admin_124220738359600812</string>
     </entry>

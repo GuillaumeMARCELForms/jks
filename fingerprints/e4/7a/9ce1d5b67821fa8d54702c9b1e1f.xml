@@ -1,0 +1,25 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-04-23 16:22:55.185 UTC</timestamp>
+  <original>
+    <name>petstore</name>
+    <number>16</number>
+  </original>
+  <md5sum>e47a9ce1d5b67821fa8d54702c9b1e1f</md5sum>
+  <fileName>applicationPetstore.war</fileName>
+  <usages>
+    <entry>
+      <string>petstore</string>
+      <ranges>16</ranges>
+    </entry>
+    <entry>
+      <string>petstore-nexus</string>
+      <ranges>14</ranges>
+    </entry>
+    <entry>
+      <string>petstore-docker-build</string>
+      <ranges>7</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
