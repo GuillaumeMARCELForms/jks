@@ -1,0 +1,25 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-04-24 09:54:40.121 UTC</timestamp>
+  <original>
+    <name>petclinic</name>
+    <number>12</number>
+  </original>
+  <md5sum>add939d113ab45421039b219b06c2d74</md5sum>
+  <fileName>petclinic.war</fileName>
+  <usages>
+    <entry>
+      <string>petclinic-nexus</string>
+      <ranges>9</ranges>
+    </entry>
+    <entry>
+      <string>petclinic-docker-build</string>
+      <ranges>7</ranges>
+    </entry>
+    <entry>
+      <string>petclinic</string>
+      <ranges>12</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

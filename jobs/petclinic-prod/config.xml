@@ -31,32 +31,15 @@
   <triggers/>
   <concurrentBuild>false</concurrentBuild>
   <builders>
-    <hudson.plugins.copyartifact.CopyArtifact plugin="copyartifact@1.42">
-      <project>petclinic</project>
-      <filter>**/*.war</filter>
-      <target></target>
-      <excludes></excludes>
-      <selector class="hudson.plugins.copyartifact.StatusBuildSelector"/>
-      <doNotFingerprintArtifacts>false</doNotFingerprintArtifacts>
-    </hudson.plugins.copyartifact.CopyArtifact>
     <hudson.tasks.Shell>
-      <command>docker build -t petclinic-project:latest . </command>
+      <command>CONTAINER_NAME=&quot;petclinic-prod&quot;
+OLD=&quot;$(docker ps --all --quiet --filter=name=&quot;$CONTAINER_NAME&quot;)&quot;
+if [ -n &quot;$OLD&quot; ]; then
+  docker stop $OLD &amp;&amp; docker rm $OLD
+fi
+docker run -d --name petclinic-prod -p 8390:8080 petclinic-project:latest</command>
     </hudson.tasks.Shell>
   </builders>
-  <publishers>
-    <hudson.tasks.BuildTrigger>
-      <childProjects>petclinic-docker-run,petclinic-uat</childProjects>
-      <threshold>
-        <name>SUCCESS</name>
-        <ordinal>0</ordinal>
-        <color>BLUE</color>
-        <completeBuild>true</completeBuild>
-      </threshold>
-    </hudson.tasks.BuildTrigger>
-    <au.com.centrumsystems.hudson.plugin.buildpipeline.trigger.BuildPipelineTrigger plugin="build-pipeline-plugin@1.5.8">
-      <configs/>
-      <downstreamProjectNames> petclinic-prod</downstreamProjectNames>
-    </au.com.centrumsystems.hudson.plugin.buildpipeline.trigger.BuildPipelineTrigger>
-  </publishers>
+  <publishers/>
   <buildWrappers/>
 </project>
