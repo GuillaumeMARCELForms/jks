@@ -32,12 +32,12 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>CONTAINER_NAME=&quot;petclinic&quot;
+      <command>CONTAINER_NAME=&quot;petclinic-test&quot;
 OLD=&quot;$(docker ps --all --quiet --filter=name=&quot;$CONTAINER_NAME&quot;)&quot;
 if [ -n &quot;$OLD&quot; ]; then
   docker stop $OLD &amp;&amp; docker rm $OLD
 fi
-docker run -d --name petclinic -p 8090:8080 petclinic-project:latest</command>
+docker run -d --name petclinic-test -p 8090:8080 petclinic-project:latest</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
