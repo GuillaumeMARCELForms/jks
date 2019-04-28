@@ -1,0 +1,26 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-04-27 15:37:14.877 UTC</timestamp>
+  <original>
+    <name>petclinic-pipeline</name>
+    <number>69</number>
+  </original>
+  <md5sum>18e8bd8194c8021a3fe7c86db14ded93</md5sum>
+  <fileName>Docker image sha256:18e8bd8194c8021a3fe7c86db14ded930912a3ff16df5054d258df7ea095552c</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerAncestorFingerprintFacet plugin="docker-commons@1.14">
+      <timestamp>1556379434869</timestamp>
+      <imageId>sha256:18e8bd8194c8021a3fe7c86db14ded930912a3ff16df5054d258df7ea095552c</imageId>
+      <usages>
+        <entry>
+          <string>petclinic-pipeline</string>
+          <ranges>69</ranges>
+        </entry>
+      </usages>
+      <ancestorImageIds class="sorted-set">
+        <string>sha256:0125e048d57b3cbc56d93904112a6ee90641243bd55f7d4fb822520136e2b4b9</string>
+      </ancestorImageIds>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerAncestorFingerprintFacet>
+  </facets>
+</fingerprint>

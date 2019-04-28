@@ -1,4 +1,4 @@
-Started at Wed Apr 24 16:08:10 UTC 2019
+Started at Fri Apr 26 21:34:52 UTC 2019
 Checking maven-project
 Checking petclinic
 Checking petclinic-checkstyle
@@ -6,6 +6,7 @@ Checking petclinic-docker-build
 Checking petclinic-docker-run
 Checking petclinic-nexus
 Checking petclinic-pipeline
+Checking petclinic-pipeline-script
 Checking petclinic-prod
 Checking petclinic-sonar
 Checking petclinic-uat
@@ -14,8 +15,8 @@ Checking petstore-checkstyle
 Checking petstore-docker-build
 Checking petstore-nexus
 Checking petstore-sonar
-Finished at Wed Apr 24 16:08:10 UTC 2019. 6ms
-Started at Thu Apr 25 16:08:10 UTC 2019
+Finished at Fri Apr 26 21:34:52 UTC 2019. 1ms
+Started at Sat Apr 27 21:34:52 UTC 2019
 Checking maven-project
 Checking petclinic
 Checking petclinic-checkstyle
@@ -23,6 +24,7 @@ Checking petclinic-docker-build
 Checking petclinic-docker-run
 Checking petclinic-nexus
 Checking petclinic-pipeline
+Checking petclinic-pipeline-script
 Checking petclinic-prod
 Checking petclinic-sonar
 Checking petclinic-uat
@@ -31,4 +33,4 @@ Checking petstore-checkstyle
 Checking petstore-docker-build
 Checking petstore-nexus
 Checking petstore-sonar
-Finished at Thu Apr 25 16:08:10 UTC 2019. 9ms
+Finished at Sat Apr 27 21:34:52 UTC 2019. 2ms

@@ -6,7 +6,9 @@
       <jobProperties/>
       <triggers/>
       <parameters/>
-      <options/>
+      <options>
+        <string>parallelsAlwaysFailFast</string>
+      </options>
     </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
   </actions>
   <description></description>
@@ -33,7 +35,7 @@
           <excludeBranchesSpec></excludeBranchesSpec>
           <sourceBranchRegex></sourceBranchRegex>
           <targetBranchRegex></targetBranchRegex>
-          <secretToken>{AQAAABAAAAAQdJA5Am8xkMWqWpk8I4PbS5jQioGXn9paoiKY9W3Cp4E=}</secretToken>
+          <secretToken>{AQAAABAAAAAQ1PPOkhaTUUuIot7wRMNe2mfVRov7ZiYuQ0jzJykOwBc=}</secretToken>
           <pendingBuildName></pendingBuildName>
           <cancelPendingBuildsOnUpdate>false</cancelPendingBuildsOnUpdate>
         </com.dabsquared.gitlabjenkins.GitLabPushTrigger>
@@ -48,12 +50,12 @@
       <configVersion>2</configVersion>
       <userRemoteConfigs>
         <hudson.plugins.git.UserRemoteConfig>
-          <url>http://gitlab-ce/root/spring-framework-petclinic.git</url>
+          <url>https://github.com/plb-formation/spring-framework-petclinic.git</url>
         </hudson.plugins.git.UserRemoteConfig>
       </userRemoteConfigs>
       <branches>
         <hudson.plugins.git.BranchSpec>
-          <name>*/master</name>
+          <name>**/master</name>
         </hudson.plugins.git.BranchSpec>
       </branches>
       <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
